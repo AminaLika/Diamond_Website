@@ -1,0 +1,62 @@
+// Helpers
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+// Objects
+//@import './objects/buttons/style';
+
+// Layouts
+//@import './layouts/header/style';
+
+@import "./helpers/media";
+
+.feature {
+  .title {
+    margin-top: 75px;
+    margin-bottom: 35px;
+    margin-left: 3.5vw;
+    .blw {
+      width: 357px;
+      height: 56px;
+      text-align: left;
+      font-family: "Brasley";
+      letter-spacing: 0px;
+      color: #fbeddc;
+      opacity: 1;
+    }
+  }
+
+  .photo {
+    margin-left: auto;
+    margin-right: auto;
+    .blw_photo {
+      flex-direction: row;
+      display: flexbox;
+      .col1 {
+        width: 500px;
+        height: 272px;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding: 0px 20px;
+      }
+      .col2 {
+        width: 463px;
+        height: 272px;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0px 20px;
+      }
+      .col3 {
+        width: 463px;
+        height: 272px;
+        flex-direction: row;
+        justify-content: flex-end;
+        padding: 0px 20px;
+      }
+      img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}

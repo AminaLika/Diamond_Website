@@ -1,0 +1,105 @@
+// Helpers
+@import "./helpers/variables";
+@import "./helpers/mixins";
+
+// Objects
+//@import './objects/buttons/style';
+
+@import "./helpers/media";
+
+.foto-txt {
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+
+  .bckgr {
+    position: relative;
+
+    .bckgrpic {
+      opacity: 1;
+      height: auto;
+      width: 100%;
+    }
+  }
+}
+.text {
+  position: absolute;
+  top: 16vw;
+  left: 5.3vw;
+  width: 685px;
+  opacity: 1;
+  display: block;
+  .below_text {
+    margin-bottom: 30px;
+    .txt {
+      top: 0px;
+      left: 0px;
+      width: 333px;
+      line-height: 3.0625vw;
+      text-align: left;
+      font-family: "Manrope";
+      letter-spacing: 0px;
+      color: #ffffff;
+    }
+    .word {
+      top: 69px;
+      left: 0px;
+      width: 435px;
+      text-align: left;
+      font-family: "Manrope";
+      letter-spacing: 0px;
+      font-weight: 600;
+      color: #ffffff;
+      display: inline;
+
+      span {
+        color: #ffffff;
+        font-weight: 100;
+      }
+    }
+  }
+  .paragh_text {
+    .paragraph {
+      margin: 0px;
+      top: 80px;
+      left: 0px;
+      // width: 603px;
+      line-height: 34px;
+      text-align: left;
+      font-weight: 200;
+      letter-spacing: -0.24px;
+      color: #ffffff;
+    }
+    .paragraph1 {
+      margin: 0px;
+      top: 80px;
+      left: 0px;
+      // width: 603px;
+      text-align: left;
+      font-weight: 200;
+      letter-spacing: -0.22px;
+      color: #ffffff;
+      .pargr {
+        text-decoration: underline;
+        top: 100px;
+        left: 0px;
+        width: 276px;
+        height: 34px;
+      }
+    }
+  }
+
+  .btn {
+    left: 86px;
+    width: 161px;
+    height: 52px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    border-radius: 0%;
+    letter-spacing: 1.4px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,40 @@
+// ----------------------------------------------------------------------------------
+// Create a mixin for each media and then call it from the main _media.scss
+// Prefered name : PAGE_NAME_media_max_lg
+//
+// @mixin layout_homepage_media_max_lg {
+// }
+// ----------------------------------------------------------------------------------
+@media screen and (max-width: 550px) {
+  .text {
+    margin-top: 220px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .below_text {
+    word-break: break-all;
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 2020px) {
+  .paragh_text {
+    word-break: break-all;
+    width: 570px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .paragh_text {
+    word-break: break-all;
+    width: 345px;
+    height: 150px;
+  }
+  .paragraph1 {
+    word-break: break-all;
+    width: 347.2px;
+    height: 150px;
+  }
+}

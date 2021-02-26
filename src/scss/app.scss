@@ -7,55 +7,49 @@
  */
 
 // Fonts
-	@import url('https://fonts.googleapis.com/css?family=Nunito:300,400,500,700');
+@import url("https://fonts.googleapis.com/css?family=Nunito:300,400,500,700");
 
 //NodeJS Packages
-	// Bootstrap
-	@import '~bootstrap/scss/bootstrap';
-
+// Bootstrap
+//duhet me e ba koment
+@import "~bootstrap/scss/bootstrap";
 
 // NonPointing Helpers
-	@import './helpers/functions';
-	@import './helpers/variables';
-	@import './helpers/mixins';
-
+@import "./helpers/functions";
+@import "./helpers/variables";
+@import "./helpers/mixins";
 
 /* Css style goes here */
-	html {
-		// Footer Always on bottom
-		// height: 100%;
-		// box-sizing: border-box;
-		body {
-			// Footer Always on bottom
-			// Footer must be position:absolute
-			// position: relative;
-			// padding-bottom: 110px !important; 
-			// overflow-x:hidden;
-			line-height: map-get($defaults, 'line-height');
-			font-size: map-get($defaults, 'font-size');
-			
-			margin: 0;
-			padding:0px;
+html {
+  // Footer Always on bottom
+  // height: 100%;
+  // box-sizing: border-box;
+  body {
+    // Footer Always on bottom
+    // Footer must be position:absolute
+    // position: relative;
+    // padding-bottom: 110px !important;
+    // overflow-x:hidden;
+    line-height: map-get($defaults, "line-height");
+    font-size: map-get($defaults, "font-size");
+    background-color: #1a1a1a;
+    margin: 0;
+    padding: 0px;
+  }
+}
 
-		}
-	}
+//Pointing Helpers [utilities]
+@import "./helpers/utilities";
 
-	//Pointing Helpers [utilities]
-	@import './helpers/utilities';
-	
-	// Objects
-	//@import './objects/_demo_object/style';
-	@import './objects/buttons/style';
+// Objects
+//@import './objects/_demo_object/style';
+@import "./objects/buttons/style";
 
-	// Layouts
-	//@import './layouts/_demo_layout/style';
-	
+// Layouts
+@import "./layouts/_header_layout/style";
 
-	// Pages
-	//@import './pages/_demo_page/style';
+@import "./layouts/_div1_layout/stylediv1";
+// Pages
+@import "./pages/_homepage/homepage";
 
-
-	@import './helpers/media';
-
-	
-	
+@import "./helpers/media";
